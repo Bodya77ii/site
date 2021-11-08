@@ -1,0 +1,224 @@
+* {
+	Font-family: Comic Sans MS;
+	text-decoration: none;
+  box-sizing: border-box;
+  
+
+}
+textarea{
+  resize: none;
+  outline: none;
+
+}
+
+.container{
+  width: 1700px;
+  height: 0px;
+  margin: 0px auto;
+
+}
+
+.header{
+  background-color: yellowgreen;
+  box-shadow:1px 1px 29px rgba(0, 233, 0, 0.77);
+-webkit-box-shadow:1px 1px 29px rgba(0, 233, 0, 0.77);
+  display: block;
+  height: 60px;
+  
+  margin-bottom: 80px;
+}
+
+.header_text{
+  display: flex;
+   justify-content: space-evenly;
+  padding-left: 0.1%;
+  font-size: 2vw;
+  color: #1714CE;
+}
+
+a { color: inherit; } 
+body{
+  background-color: #CEB5CA;
+	margin: 0;
+  min-width: 1700px;
+
+}
+h1{
+	position: relative;
+	text-align: center;
+	top: -150px;
+	color:  #ECAE1C;
+  font-size: 3vw;
+
+}
+
+
+
+.hystory{
+  position: relative;
+  width: 200px;
+  left: 1450px;
+  background-color: #CEB5C5;
+  box-shadow:0px 0px 14px rgba(163, 0, 0, 1);
+-webkit-box-shadow:0px 0px 14px rgba(163, 0, 0, 1);
+  bottom: 1165px;
+}
+
+.hystory_down{
+  position: relative;
+  width: 200px;
+  left: 1450px;
+  background-color: #CEB5C5;
+  box-shadow:0px 0px 14px rgba(163, 0, 0, 1);
+-webkit-box-shadow:0px 0px 14px rgba(163, 0, 0, 1);
+  bottom: 1115px;
+}
+
+.hello_text{
+  position: relative;
+  top: 100px;
+  margin-bottom: 100px;
+}
+
+.front_text{
+ text-align: center;
+ position: relative;
+ font-size: large;
+bottom: 100px;
+margin-bottom: 10px;
+z-index: 2;
+  
+}
+
+.photo_trashguys{
+	
+	position: relative;
+	left: 375px;
+	bottom: 100px;
+	max-width: 1000px;
+	max-height: 500px;
+
+}
+
+.photos img{
+box-shadow: rgba(0, 0, 0, 0.2) 0px 70px 40px -7px;
+	padding: 25px;
+
+}
+
+.go_company{
+  position: relative;
+  padding-top: 5px;
+  padding-left: 10px;
+
+  width: 300px;
+  color: #FFF423;
+  bottom: 700px;
+  opacity: 100;
+  box-shadow: 0px 5px 47px 32px color yellow;
+ 
+}
+
+
+
+/* Появлення самого вищого тексту */
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  }
+  @keyframes zoomIn {
+  0% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+
+ 
+ /* ефект на другий текст */
+
+  .lightSpeedIn {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes lightSpeedIn {
+  0% {
+  -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+  transform: translate3d(100%, 0, 0) skewX(-30deg);
+  opacity: 0;
+  }
+  60% {
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  opacity: 1;
+  }
+  80% {
+  -webkit-transform: skewX(-5deg);
+  transform: skewX(-5deg);
+  opacity: 1;
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  }
+  @keyframes lightSpeedIn {
+  0% {
+  -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+  transform: translate3d(100%, 0, 0) skewX(-30deg);
+  opacity: 0;
+  }
+  60% {
+  -webkit-transform: skewX(20deg);
+  transform: skewX(20deg);
+  opacity: 1;
+  }
+  80% {
+  -webkit-transform: skewX(-5deg);
+  transform: skewX(-5deg);
+  opacity: 1;
+  }
+  100% {
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  }
+  } 
+
+  .scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+   }
+   .scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
+

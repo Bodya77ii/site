@@ -1,0 +1,206 @@
+*{    
+    margin: 0;
+  padding: 0;
+  Font-family: Comic Sans MS;
+  text-decoration: none;
+  bottom: 0px;
+
+}
+a { color: inherit; }
+body {
+  background-color: #CE6339;
+  min-width: 1700px;
+}
+
+.container{
+  width: 1700px;
+  margin: 0px auto;
+}
+
+
+
+.header{
+  background-color: yellowgreen;
+  box-shadow:1px 1px 29px rgba(0, 233, 0, 0.77);
+-webkit-box-shadow:1px 1px 29px rgba(0, 233, 0, 0.77);
+  width: 1699px;
+  height: 60px;
+  margin-bottom: 80px;
+}
+
+.header_text{
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0.1%;
+  
+  font-size: 2vw;
+  color: #1714CE;
+}
+
+.name_up{
+	text-align: center;
+	color: #28CDB9;
+	font-size: 5vw;
+	opacity: 800%;
+}
+
+.people{
+
+  margin: 30px;
+  height: 1000px;
+
+}
+
+.taras{
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  left: 15px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  background-color: #B8B2CE;
+}
+
+.taras img {
+  width: 200px;
+  height: 200px;
+ 
+}
+
+.yaroslaw {
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  left: 585px;
+  bottom: 321px;
+  background-color: #B8B2CE;
+}
+
+.yaroslaw img {
+  width: 200px;
+  height: 200px;
+}
+
+.rostik {
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  left: 1150px;
+  bottom: 640px;
+  background-color: #B8B2CE;
+}
+
+.rostik img {
+  width: 200px;
+  height: 200px;
+}
+
+.alyosha{
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  left: 15px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  bottom: 640px;
+  background-color: #B8B2CE;
+}
+
+.alyosha img {
+  width: 200px;
+  height: 200px;
+}
+
+.marina{
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  left: 585px;
+  bottom: 959px;
+  background-color: #B8B2CE;
+}
+
+.marina img {
+  width: 200px;
+  height: 200px;
+}
+
+.arina {
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  left: 1150px;
+  bottom: 1280px;
+  background-color: #B8B2CE;
+}
+
+.arina img {
+  width: 200px;
+  height: 200px;
+}
+
+.nazar{
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  left: 15px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  bottom: 1280px;
+  background-color: #B8B2CE;
+}
+
+
+.nazar img {
+  width: 200px;
+  height: 200px;
+}
+
+.sokoty{
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  left: 585px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  bottom: 1600px;
+  background-color: #B8B2CE;
+}
+
+.sokoty img {
+  width: 200px;
+  height: 200px;
+}
+
+.ya{
+  position: relative;
+  border: 1px solid #000;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  box-shadow: 1px 4px 10px rgba(1, 1, 1, 1);
+  left: 1150px;
+  bottom: 1921px;
+  background-color: #B8B2CE;
+}
+
+.ya img {
+  width: 200px;
+  height: 200px;
+}
